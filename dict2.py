@@ -1,0 +1,12 @@
+profile={
+    'Arvind':{
+        'address':["Varanasi","noida","Delhi","Mumbai"],
+        'hobbies':["cricket","chess","caram","reading"]
+    },
+    'Akash':{
+        'address':["Bhadohi","noida","Delhi","Mumbai"],
+        'hobbies':["cricket","chess","caram","reading"]
+    }
+}
+res=profile["Arvind"]["address"]
+print(res)
